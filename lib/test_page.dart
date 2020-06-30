@@ -141,7 +141,7 @@ class _TestPageState extends State<TestPage> {
         ),
         actions: <Widget>[
           FlatButton(
-            child: Text('저장하기'),
+            child: Text('저장'),
             onPressed: () {
               if(_eventController.text.isEmpty) return;
               setState(() {
